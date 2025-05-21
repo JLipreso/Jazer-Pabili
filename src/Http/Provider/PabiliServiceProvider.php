@@ -16,8 +16,8 @@ class PabiliServiceProvider extends ServiceProvider
     public function boot(): void
     {
         $this->publishes([
-            __DIR__ . '/../../../config/config.php' => config_path('pabiliconfig.php')
-        ], 'pabiliconfig-config');
+            __DIR__ . '/../../../config/config.php' => config_path('jazerpabiliconfig.php')
+        ], 'jazerpabiliconfig-config');
         
         $this->loadRoutesFrom( __DIR__ . '/../../../routes/api.php');
 

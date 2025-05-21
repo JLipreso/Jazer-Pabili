@@ -1,7 +1,7 @@
 Installation:
 
 composer require jazer/pabili:dev-main
-php artisan vendor:publish --tag=pabiliconfig-config
+php artisan vendor:publish --tag=jazerpabiliconfig-config
 
 pabili/xxx
 
